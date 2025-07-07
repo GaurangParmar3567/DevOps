@@ -1,0 +1,49 @@
+/* ToggleSlider.css */
+.toggle-container {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .circle {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-container.active {
+    background-color: #4caf50;
+  }
+  
+  .toggle-container.active .circle {
+    transform: translateX(30px);
+  }
+
+  .text
+  {
+    position: absolute;
+    top: 38%;
+  left: 32%;
+    font-size: 7px;
+    user-select: none;
+ 
+  }
+  .active {
+    background-color: #fff;
+    color: #000;
+  }
+  .not-active
+  {
+    background-color: #000;
+    color: #fff;
+  }
+  
